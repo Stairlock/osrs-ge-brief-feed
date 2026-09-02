@@ -1,29 +1,9 @@
 {
-  "generated_at": "2026-09-02T01:01:25.041Z",
+  "generated_at": "2026-09-02T01:06:36.623Z",
   "note": "Public feed for the OSRS daily investment brief. opportunities = our GE-tracker model output; news = official OSRS RSS; reddit = hot posts from the three subs. Any field may contain {error} if that source was unreachable this run.",
   "opportunities": {
     "about": "OSRS GE tracker model output. reversion = items below their 15-day mean, ranked by gp a full buy limit would make; churn = high-volume items with a positive live spread to flip fast. upside_pct is after 2% GE tax vs the live buy price. Prices in gp.",
     "churn": [
-      {
-        "buy": 331,
-        "name": "Blood rune",
-        "sell": 341,
-        "roi_pct": 1.21,
-        "volume_5m": 251103,
-        "volume_per_hr": 1886795,
-        "buy_pressure_pct": 76,
-        "margin_after_tax": 4
-      },
-      {
-        "buy": 1275,
-        "name": "Dragon dart tip",
-        "sell": 1338,
-        "roi_pct": 2.9,
-        "volume_5m": 7052,
-        "volume_per_hr": 90383,
-        "buy_pressure_pct": 58,
-        "margin_after_tax": 37
-      },
       {
         "buy": 6500,
         "name": "Mahogany hull parts",
@@ -35,34 +15,34 @@
         "margin_after_tax": 2320
       },
       {
-        "buy": 155,
-        "name": "Zulrah's scales",
-        "sell": 160,
-        "roi_pct": 1.29,
-        "volume_5m": 172562,
-        "volume_per_hr": 1402118,
-        "buy_pressure_pct": 56,
+        "buy": 103,
+        "name": "Chaos rune",
+        "sell": 107,
+        "roi_pct": 1.94,
+        "volume_5m": 224422,
+        "volume_per_hr": 1689530,
+        "buy_pressure_pct": 66,
         "margin_after_tax": 2
       },
       {
-        "buy": 255,
-        "name": "Demon tear",
-        "sell": 265,
-        "roi_pct": 1.96,
-        "volume_5m": 31238,
-        "volume_per_hr": 621061,
-        "buy_pressure_pct": 71,
-        "margin_after_tax": 5
+        "buy": 171,
+        "name": "Revenant ether",
+        "sell": 175,
+        "roi_pct": 0.58,
+        "volume_5m": 140650,
+        "volume_per_hr": 2115142,
+        "buy_pressure_pct": 50,
+        "margin_after_tax": 1
       },
       {
-        "buy": 1281,
-        "name": "Water orb",
-        "sell": 1374,
-        "roi_pct": 5.15,
-        "volume_5m": 2963,
-        "volume_per_hr": 36684,
-        "buy_pressure_pct": 34,
-        "margin_after_tax": 66
+        "buy": 331,
+        "name": "Blood rune",
+        "sell": 339,
+        "roi_pct": 0.6,
+        "volume_5m": 251103,
+        "volume_per_hr": 1886795,
+        "buy_pressure_pct": 76,
+        "margin_after_tax": 2
       },
       {
         "buy": 99,
@@ -95,6 +75,16 @@
         "margin_after_tax": 6
       },
       {
+        "buy": 2270,
+        "name": "Seeking dragon arrow",
+        "sell": 2327,
+        "roi_pct": 0.48,
+        "volume_5m": 14000,
+        "volume_per_hr": 120660,
+        "buy_pressure_pct": 63,
+        "margin_after_tax": 11
+      },
+      {
         "buy": 333,
         "name": "Wrath rune",
         "sell": 342,
@@ -115,34 +105,34 @@
         "margin_after_tax": 33
       },
       {
-        "buy": 282,
-        "name": "Tarromin",
-        "sell": 318,
-        "roi_pct": 10.64,
-        "volume_5m": 551,
-        "volume_per_hr": 30980,
-        "buy_pressure_pct": 52,
-        "margin_after_tax": 30
+        "buy": 119,
+        "name": "Mahogany logs",
+        "sell": 129,
+        "roi_pct": 6.72,
+        "volume_5m": 66936,
+        "volume_per_hr": 116531,
+        "buy_pressure_pct": 59,
+        "margin_after_tax": 8
       },
       {
-        "buy": 70,
-        "name": "Grapes",
-        "sell": 74,
-        "roi_pct": 4.29,
-        "volume_5m": 9103,
-        "volume_per_hr": 313475,
-        "buy_pressure_pct": 55,
-        "margin_after_tax": 3
+        "buy": 541,
+        "name": "Adamantite ore",
+        "sell": 561,
+        "roi_pct": 1.66,
+        "volume_5m": 16147,
+        "volume_per_hr": 122106,
+        "buy_pressure_pct": 34,
+        "margin_after_tax": 9
       },
       {
-        "buy": 963,
-        "name": "Mithril bar",
-        "sell": 1000,
-        "roi_pct": 1.77,
-        "volume_5m": 7910,
-        "volume_per_hr": 71252,
-        "buy_pressure_pct": 35,
-        "margin_after_tax": 17
+        "buy": 7501,
+        "name": "Extended stamina potion(4)",
+        "sell": 7772,
+        "roi_pct": 1.55,
+        "volume_5m": 111,
+        "volume_per_hr": 11069,
+        "buy_pressure_pct": 29,
+        "margin_after_tax": 116
       },
       {
         "buy": 2178,
@@ -153,6 +143,16 @@
         "volume_per_hr": 19084,
         "buy_pressure_pct": 25,
         "margin_after_tax": 76
+      },
+      {
+        "buy": 30809,
+        "name": "Ranarr seed",
+        "sell": 31584,
+        "roi_pct": 0.47,
+        "volume_5m": 221,
+        "volume_per_hr": 5647,
+        "buy_pressure_pct": 41,
+        "margin_after_tax": 144
       }
     ],
     "reversion": [
@@ -202,10 +202,25 @@
         "trend6h_pct_per_day": -2.11
       },
       {
+        "z": -2.02,
+        "buy": 12142,
+        "name": "Ring of wealth (5)",
+        "sell": 12381,
+        "regime": "ranging",
+        "buy_score": 85,
+        "upside_pct": 2.6,
+        "target_mean": 12715,
+        "model_reason": "4.5% below its 15-day average (z -2.0)",
+        "volume_per_hr": 2354,
+        "buy_pressure_pct": 86,
+        "gp_turnover_per_hr": 28582268,
+        "trend6h_pct_per_day": -0.33
+      },
+      {
         "z": -3.08,
         "buy": 1502,
         "name": "Willow branch",
-        "sell": 1801,
+        "sell": 1890,
         "regime": "ranging",
         "buy_score": 100,
         "upside_pct": 19.1,
@@ -217,19 +232,19 @@
         "trend6h_pct_per_day": -1.02
       },
       {
-        "z": -2.02,
-        "buy": 12150,
-        "name": "Ring of wealth (5)",
-        "sell": 12381,
+        "z": -0.65,
+        "buy": 67543,
+        "name": "Goading potion(4)",
+        "sell": 68700,
         "regime": "ranging",
-        "buy_score": 85,
-        "upside_pct": 2.6,
-        "target_mean": 12715,
-        "model_reason": "4.5% below its 15-day average (z -2.0)",
-        "volume_per_hr": 2354,
-        "buy_pressure_pct": 86,
-        "gp_turnover_per_hr": 28601100,
-        "trend6h_pct_per_day": -0.33
+        "buy_score": 65,
+        "upside_pct": 2.3,
+        "target_mean": 70516,
+        "model_reason": "9.6% below its 90-day base — cheap on the long view too",
+        "volume_per_hr": 726,
+        "buy_pressure_pct": 79,
+        "gp_turnover_per_hr": 49036218,
+        "trend6h_pct_per_day": -0.72
       },
       {
         "z": -1.93,
@@ -250,7 +265,7 @@
         "z": -1.35,
         "buy": 2200,
         "name": "Arceuus library teleport (tablet)",
-        "sell": 2337,
+        "sell": 2099,
         "regime": "falling knife",
         "buy_score": 72,
         "upside_pct": 13.6,
@@ -305,21 +320,6 @@
         "buy_pressure_pct": 55,
         "gp_turnover_per_hr": 1226752,
         "trend6h_pct_per_day": -5.34
-      },
-      {
-        "z": -0.65,
-        "buy": 67909,
-        "name": "Goading potion(4)",
-        "sell": 68700,
-        "regime": "ranging",
-        "buy_score": 65,
-        "upside_pct": 1.8,
-        "target_mean": 70516,
-        "model_reason": "9.6% below its 90-day base — cheap on the long view too",
-        "volume_per_hr": 726,
-        "buy_pressure_pct": 79,
-        "gp_turnover_per_hr": 49301934,
-        "trend6h_pct_per_day": -0.72
       },
       {
         "z": -1.4,
@@ -445,7 +445,7 @@
         "z": -0.81,
         "buy": 1850,
         "name": "Topaz amulet",
-        "sell": 1850,
+        "sell": 1315,
         "regime": "ranging",
         "buy_score": 78,
         "upside_pct": 7.5,
@@ -458,9 +458,9 @@
       },
       {
         "z": -2.52,
-        "buy": 619101,
+        "buy": 619266,
         "name": "Dragon crossbow",
-        "sell": 634799,
+        "sell": 623680,
         "regime": "ranging",
         "buy_score": 75,
         "upside_pct": 3,
@@ -468,7 +468,7 @@
         "model_reason": "4.9% below its 15-day average (z -2.5)",
         "volume_per_hr": 155,
         "buy_pressure_pct": 52,
-        "gp_turnover_per_hr": 95960655,
+        "gp_turnover_per_hr": 95986230,
         "trend6h_pct_per_day": -0.57
       },
       {
@@ -517,10 +517,25 @@
         "trend6h_pct_per_day": -0.87
       },
       {
+        "z": -2.99,
+        "buy": 1005,
+        "name": "Mahogany repair kit",
+        "sell": 1043,
+        "regime": "falling knife",
+        "buy_score": 100,
+        "upside_pct": 8.8,
+        "target_mean": 1115,
+        "model_reason": "9.8% below its 15-day average (z -3.0)",
+        "volume_per_hr": 28875,
+        "buy_pressure_pct": 81,
+        "gp_turnover_per_hr": 29019375,
+        "trend6h_pct_per_day": -2.75
+      },
+      {
         "z": -1.46,
         "buy": 219,
         "name": "Marrentill potion (unf)",
-        "sell": 318,
+        "sell": 250,
         "regime": "ranging",
         "buy_score": 75,
         "upside_pct": 49.3,
@@ -533,17 +548,17 @@
       },
       {
         "z": -2.46,
-        "buy": 1281,
+        "buy": 1284,
         "name": "Water orb",
-        "sell": 1374,
+        "sell": 1309,
         "regime": "recovering",
         "buy_score": 100,
-        "upside_pct": 7.5,
+        "upside_pct": 7.2,
         "target_mean": 1405,
         "model_reason": "10.2% below its 15-day average (z -2.5)",
         "volume_per_hr": 36684,
         "buy_pressure_pct": 34,
-        "gp_turnover_per_hr": 46992204,
+        "gp_turnover_per_hr": 47102256,
         "trend6h_pct_per_day": -0.74
       },
       {
@@ -560,6 +575,21 @@
         "buy_pressure_pct": 0,
         "gp_turnover_per_hr": 30023664,
         "trend6h_pct_per_day": 0.23
+      },
+      {
+        "z": -2.3,
+        "buy": 2864,
+        "name": "Sacred oil(4)",
+        "sell": 2994,
+        "regime": "falling knife",
+        "buy_score": 84,
+        "upside_pct": 13.9,
+        "target_mean": 3327,
+        "model_reason": "10.0% below its 15-day average (z -2.3)",
+        "volume_per_hr": 651,
+        "buy_pressure_pct": 78,
+        "gp_turnover_per_hr": 1864464,
+        "trend6h_pct_per_day": -1.4
       },
       {
         "z": -3.04,
@@ -595,7 +625,7 @@
         "z": -1.41,
         "buy": 907,
         "name": "Clockwork",
-        "sell": 954,
+        "sell": 926,
         "regime": "ranging",
         "buy_score": 86,
         "upside_pct": 6.8,
@@ -605,36 +635,6 @@
         "buy_pressure_pct": 89,
         "gp_turnover_per_hr": 2175893,
         "trend6h_pct_per_day": -0.62
-      },
-      {
-        "z": -2.3,
-        "buy": 2921,
-        "name": "Sacred oil(4)",
-        "sell": 2994,
-        "regime": "falling knife",
-        "buy_score": 84,
-        "upside_pct": 11.6,
-        "target_mean": 3327,
-        "model_reason": "10.0% below its 15-day average (z -2.3)",
-        "volume_per_hr": 651,
-        "buy_pressure_pct": 78,
-        "gp_turnover_per_hr": 1901571,
-        "trend6h_pct_per_day": -1.4
-      },
-      {
-        "z": -2.99,
-        "buy": 1043,
-        "name": "Mahogany repair kit",
-        "sell": 1043,
-        "regime": "falling knife",
-        "buy_score": 100,
-        "upside_pct": 4.8,
-        "target_mean": 1115,
-        "model_reason": "9.8% below its 15-day average (z -3.0)",
-        "volume_per_hr": 28875,
-        "buy_pressure_pct": 81,
-        "gp_turnover_per_hr": 30116625,
-        "trend6h_pct_per_day": -2.75
       },
       {
         "z": -0.78,
@@ -685,7 +685,7 @@
         "z": -1.68,
         "buy": 820,
         "name": "Yanillian hops",
-        "sell": 838,
+        "sell": 850,
         "regime": "ranging",
         "buy_score": 79,
         "upside_pct": 6.2,
@@ -695,21 +695,6 @@
         "buy_pressure_pct": 40,
         "gp_turnover_per_hr": 1842540,
         "trend6h_pct_per_day": -0.18
-      },
-      {
-        "z": -2.57,
-        "buy": 1327,
-        "name": "Manta ray",
-        "sell": 1373,
-        "regime": "falling knife",
-        "buy_score": 90,
-        "upside_pct": 4.2,
-        "target_mean": 1411,
-        "model_reason": "6.0% below its 15-day average (z -2.6)",
-        "volume_per_hr": 22924,
-        "buy_pressure_pct": 69,
-        "gp_turnover_per_hr": 30420148,
-        "trend6h_pct_per_day": -0.53
       },
       {
         "z": -2.53,
@@ -725,6 +710,21 @@
         "buy_pressure_pct": 35,
         "gp_turnover_per_hr": 607845,
         "trend6h_pct_per_day": -1.7
+      },
+      {
+        "z": -2.57,
+        "buy": 1328,
+        "name": "Manta ray",
+        "sell": 1373,
+        "regime": "falling knife",
+        "buy_score": 90,
+        "upside_pct": 4.1,
+        "target_mean": 1411,
+        "model_reason": "6.0% below its 15-day average (z -2.6)",
+        "volume_per_hr": 22924,
+        "buy_pressure_pct": 69,
+        "gp_turnover_per_hr": 30443072,
+        "trend6h_pct_per_day": -0.53
       },
       {
         "z": -1.85,
@@ -757,7 +757,7 @@
         "trend6h_pct_per_day": 0.1
       }
     ],
-    "generated_at": "2026-09-02T01:01:15.23843+00:00"
+    "generated_at": "2026-09-02T01:05:57.285021+00:00"
   },
   "news": {
     "official": [
@@ -903,16 +903,16 @@
           "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/2007scape/comments/1w48rt2/when_you_finally_get_the_drop/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/cb2158wi5wmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=1fb6e3c8ee65d18a8602730335ba99643492d"
         },
         {
-          "title": "Title",
-          "url": "https://www.reddit.com/r/2007scape/comments/1w46tqx/title/",
-          "updated": "2026-09-01T09:25:58+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/2007scape/comments/1w46tqx/title/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/546rqv5zmvmh1.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=90acc8154058ea3a2b84955439c98a5ec6641458&quot; alt=&quot;Title"
-        },
-        {
           "title": "My Ironman barrows experience (OC)",
           "url": "https://www.reddit.com/r/2007scape/comments/1w4tool/my_ironman_barrows_experience_oc/",
           "updated": "2026-09-01T23:36:22+00:00",
           "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/2007scape/comments/1w4tool/my_ironman_barrows_experience_oc/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/a1yv5x98vzmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f7f720b864be71cecb19f286204fbfdbd2"
+        },
+        {
+          "title": "Title",
+          "url": "https://www.reddit.com/r/2007scape/comments/1w46tqx/title/",
+          "updated": "2026-09-01T09:25:58+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/2007scape/comments/1w46tqx/title/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/546rqv5zmvmh1.png?width=320&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=90acc8154058ea3a2b84955439c98a5ec6641458&quot; alt=&quot;Title"
         },
         {
           "title": "Gzz on the defender but my heart’s set on someone else",
@@ -945,9 +945,98 @@
           "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/2007scape/comments/1w4iosb/mask_of_rebirth_obtained_on_a_10hp_account/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/88m2mu951ymh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bff045a423e3d4d1cf84e968"
         }
       ],
-      "osrs": {
-        "error": "HTTP 429"
-      },
+      "osrs": [
+        {
+          "title": "READ FIRST - Advice threads and RNG posts.",
+          "url": "https://www.reddit.com/r/osrs/comments/1pkdkzt/read_first_advice_threads_and_rng_posts/",
+          "updated": "2025-12-12T00:22:43+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Firstly, regarding advice threads. A lot of advice/recommendation threads have been made recently. If you want to comment on them, do not offer bad advice. This includes noob-bait traps. Your comments will be deleted and user potentially "
+        },
+        {
+          "title": "I did it",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4r2qb/i_did_it/",
+          "updated": "2026-09-01T21:54:25+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4r2qb/i_did_it/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/ygkco3i1dzmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bc27a32698d178123a3830042a97dfd34a86ea51&quot; alt=&quot;I did "
+        },
+        {
+          "title": "finally got my defender 550kc",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4qpsa/finally_got_my_defender_550kc/",
+          "updated": "2026-09-01T21:41:04+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4qpsa/finally_got_my_defender_550kc/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/3l6qvmtnazmh1.jpg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=1cc0b57e94374698e240"
+        },
+        {
+          "title": "Gains at 5500ft",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4dpqp/gains_at_5500ft/",
+          "updated": "2026-09-01T14:32:46+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4dpqp/gains_at_5500ft/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/7alclcy56xmh1.jpg?width=140&amp;amp;height=64&amp;amp;auto=webp&amp;amp;s=4d3ddad64ecab40ff0e8a55a5b6fb5a05f7aac4c&quot; alt=&quot;G"
+        },
+        {
+          "title": "got my first pet ever today!",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4v0wl/got_my_first_pet_ever_today/",
+          "updated": "2026-09-02T00:33:09+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4v0wl/got_my_first_pet_ever_today/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/5f90vi2d50nh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=17c97a0ebfb264ed8371b28c4930cd2e9a108672&quo"
+        },
+        {
+          "title": "By what I did in the Al-Kharid situation alone I deserve a rune plate, right there, boom!",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4dc6f/by_what_i_did_in_the_alkharid_situation_alone_i/",
+          "updated": "2026-09-01T14:18:39+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4dc6f/by_what_i_did_in_the_alkharid_situation_alone_i/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/hhngficq3xmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=9256efb67d796686edf02726"
+        },
+        {
+          "title": "Rock Golem pet during Quest 💙",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4sau0/rock_golem_pet_during_quest/",
+          "updated": "2026-09-01T22:40:12+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4sau0/rock_golem_pet_during_quest/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/ftvm4on7lzmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=218a36fca69f800e9d7b5754101ce936fce209f4&quo"
+        },
+        {
+          "title": "Am I missing something or is Camdozaal smithing exp really that bad?",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4tdia/am_i_missing_something_or_is_camdozaal_smithing/",
+          "updated": "2026-09-01T23:23:33+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I’m working on a f2p Ironman and I’ve been afking at Camdozaal mostly. The mining exp isn’t too terrible for an afk method at about 6k with a rune pickaxe and 57 mining, but even with the buff the smithing exp/hr is about 1k. I’ve been tr"
+        },
+        {
+          "title": "Stale Baguette",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4esy4/stale_baguette/",
+          "updated": "2026-09-01T15:12:06+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Could someone please explain to me why this is so expensive? I just got one in a Mystery Box. I’m new to OSRS, and can’t really find anything on it. Thanks!!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;"
+        },
+        {
+          "title": "My rendition of “Spooky picture” I painted back in 2020",
+          "url": "https://www.reddit.com/r/osrs/comments/1w41jbs/my_rendition_of_spooky_picture_i_painted_back_in/",
+          "updated": "2026-09-01T04:30:13+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w41jbs/my_rendition_of_spooky_picture_i_painted_back_in/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/r90jyh6q4umh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b22b7e07cee3ede8f34562c"
+        },
+        {
+          "title": "Chill/afk activities",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4kzvw/chillafk_activities/",
+          "updated": "2026-09-01T18:45:19+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;What are some chill activities you like to do while watching some tv?&lt;br/&gt; My accounts very mid game atm. Looking for some things to do while not paying to much attention&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitte"
+        },
+        {
+          "title": "I fucking love revenant imps!",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4nsp9/i_fucking_love_revenant_imps/",
+          "updated": "2026-09-01T20:10:48+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4nsp9/i_fucking_love_revenant_imps/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/zyp3xbzjuymh1.jpg?width=140&amp;amp;height=64&amp;amp;auto=webp&amp;amp;s=bbc7d722c2358135c2439fd22f6a9b65002bf903&quot"
+        },
+        {
+          "title": "Necklace of Anguish worth bank?",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4hrjo/necklace_of_anguish_worth_bank/",
+          "updated": "2026-09-01T16:55:02+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I just hit 75 hp, and mostly used ranged for my slayer tasks. Currently rocking toxic blowpipe with fury. Is Anguish worth dropping basically my entire cash stack on?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;"
+        },
+        {
+          "title": "Finally upgraded my POH",
+          "url": "https://www.reddit.com/r/osrs/comments/1w3tnjb/finally_upgraded_my_poh/",
+          "updated": "2026-08-31T22:42:34+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w3tnjb/finally_upgraded_my_poh/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/hx1eyvzpgsmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=eda9a63cdf1b57b4053b4a4a533a3c572886069c&quot; a"
+        },
+        {
+          "title": "I think I might be a little lucky",
+          "url": "https://www.reddit.com/r/osrs/comments/1w4hifc/i_think_i_might_be_a_little_lucky/",
+          "updated": "2026-09-01T16:46:31+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4hifc/i_think_i_might_be_a_little_lucky/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/1vxt8w24uxmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=afbe3cede04388ec33eeb45e17c2b3ca50c8ce"
+        }
+      ],
       "OSRSflipping": {
         "error": "HTTP 429"
       }
