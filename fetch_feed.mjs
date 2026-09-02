@@ -136,12 +136,14 @@ const [opportunities, official, upcoming] = await Promise.all([
   getOfficialNews(),
   getUpcoming(),
 ]);
-// Reddit sequentially, well spaced and in random order so no single sub always
-// eats the rate-limit (429) when GitHub's shared IP is throttled.
+// Reddit sequentially, widely spaced (a daily job can afford ~1 min) so the
+// shared GitHub IP doesn't trip Reddit's rate limit. OSRSflipping first — it's
+// the flipping-specific sub, so it gets the freshest, least-throttled slot.
 const reddit = {};
-for (const sub of ['2007scape', 'osrs', 'OSRSflipping'].sort(() => Math.random() - 0.5)) {
-  reddit[sub] = await getSubreddit(sub);
-  await new Promise((res) => setTimeout(res, 10000));
+const subs = ['OSRSflipping', '2007scape', 'osrs'];
+for (let i = 0; i < subs.length; i++) {
+  reddit[subs[i]] = await getSubreddit(subs[i]);
+  if (i < subs.length - 1) await new Promise((res) => setTimeout(res, 20000));
 }
 const r2007 = reddit['2007scape'];
 
