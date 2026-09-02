@@ -1,174 +1,174 @@
 {
-  "generated_at": "2026-09-02T01:31:59.336Z",
+  "generated_at": "2026-09-02T01:35:51.342Z",
   "note": "Public feed for the OSRS daily investment brief. opportunities = our GE-tracker model output; news = official OSRS RSS; reddit = hot posts from the three subs. Any field may contain {error} if that source was unreachable this run.",
   "opportunities": {
     "about": "OSRS GE tracker model output. reversion = items below their 15-day mean, ranked by gp a full buy limit would make; churn = high-volume items with a positive live spread to flip fast. upside_pct is after 2% GE tax vs the live buy price. Prices in gp.",
     "churn": [
       {
-        "buy": 327,
+        "buy": 330,
         "name": "Blood rune",
         "sell": 341,
-        "roi_pct": 2.45,
-        "volume_5m": 239332,
+        "roi_pct": 1.52,
+        "volume_5m": 137592,
         "volume_per_hr": 1529954,
         "buy_pressure_pct": 68,
-        "margin_after_tax": 8
+        "margin_after_tax": 5
+      },
+      {
+        "buy": 17614,
+        "name": "Divine super combat potion(4)",
+        "sell": 18183,
+        "roi_pct": 1.17,
+        "volume_5m": 1539,
+        "volume_per_hr": 13067,
+        "buy_pressure_pct": 56,
+        "margin_after_tax": 206
       },
       {
         "buy": 3365,
         "name": "Dragon bones",
-        "sell": 3465,
-        "roi_pct": 0.92,
-        "volume_5m": 2058,
+        "sell": 3460,
+        "roi_pct": 0.77,
+        "volume_5m": 8013,
         "volume_per_hr": 92731,
         "buy_pressure_pct": 52,
-        "margin_after_tax": 31
-      },
-      {
-        "buy": 103,
-        "name": "Chaos rune",
-        "sell": 107,
-        "roi_pct": 1.94,
-        "volume_5m": 250305,
-        "volume_per_hr": 1266659,
-        "buy_pressure_pct": 59,
-        "margin_after_tax": 2
+        "margin_after_tax": 26
       },
       {
         "buy": 171,
         "name": "Revenant ether",
         "sell": 176,
         "roi_pct": 1.17,
-        "volume_5m": 192826,
+        "volume_5m": 203033,
         "volume_per_hr": 1542550,
         "buy_pressure_pct": 68,
         "margin_after_tax": 2
-      },
-      {
-        "buy": 5520,
-        "name": "Lava dragon bones",
-        "sell": 5968,
-        "roi_pct": 5.96,
-        "volume_5m": 91,
-        "volume_per_hr": 5503,
-        "buy_pressure_pct": 55,
-        "margin_after_tax": 329
       },
       {
         "buy": 180,
         "name": "Amethyst dart",
         "sell": 189,
         "roi_pct": 3.33,
-        "volume_5m": 46199,
+        "volume_5m": 17214,
         "volume_per_hr": 279008,
         "buy_pressure_pct": 60,
         "margin_after_tax": 6
+      },
+      {
+        "buy": 540,
+        "name": "Adamantite ore",
+        "sell": 565,
+        "roi_pct": 2.59,
+        "volume_5m": 16711,
+        "volume_per_hr": 164191,
+        "buy_pressure_pct": 28,
+        "margin_after_tax": 14
+      },
+      {
+        "buy": 333,
+        "name": "Wrath rune",
+        "sell": 342,
+        "roi_pct": 0.9,
+        "volume_5m": 2574,
+        "volume_per_hr": 778190,
+        "buy_pressure_pct": 73,
+        "margin_after_tax": 3
+      },
+      {
+        "buy": 1299,
+        "name": "Lantadyme",
+        "sell": 1411,
+        "roi_pct": 6.47,
+        "volume_5m": 1799,
+        "volume_per_hr": 21891,
+        "buy_pressure_pct": 67,
+        "margin_after_tax": 84
       },
       {
         "buy": 1039,
         "name": "Dragon dart",
         "sell": 1067,
         "roi_pct": 0.67,
-        "volume_5m": 6246,
+        "volume_5m": 3420,
         "volume_per_hr": 206100,
         "buy_pressure_pct": 41,
         "margin_after_tax": 7
-      },
-      {
-        "buy": 3831,
-        "name": "Marlin",
-        "sell": 3966,
-        "roi_pct": 1.46,
-        "volume_5m": 319,
-        "volume_per_hr": 22177,
-        "buy_pressure_pct": 46,
-        "margin_after_tax": 56
       },
       {
         "buy": 173,
         "name": "Ruby bolts (e)",
         "sell": 190,
         "roi_pct": 8.09,
-        "volume_5m": 1832,
+        "volume_5m": 3321,
         "volume_per_hr": 99469,
         "buy_pressure_pct": 59,
         "margin_after_tax": 14
       },
       {
-        "buy": 116,
-        "name": "Mahogany logs",
-        "sell": 123,
-        "roi_pct": 4.31,
-        "volume_5m": 51835,
-        "volume_per_hr": 220175,
-        "buy_pressure_pct": 56,
-        "margin_after_tax": 5
+        "buy": 2903,
+        "name": "Ruby dragon bolts (e)",
+        "sell": 2982,
+        "roi_pct": 0.69,
+        "volume_5m": 6012,
+        "volume_per_hr": 87839,
+        "buy_pressure_pct": 70,
+        "margin_after_tax": 20
       },
       {
-        "buy": 8000,
-        "name": "Snape grass seed",
-        "sell": 9025,
-        "roi_pct": 10.56,
-        "volume_5m": 29,
-        "volume_per_hr": 2581,
-        "buy_pressure_pct": 78,
-        "margin_after_tax": 845
+        "buy": 375,
+        "name": "Soul rune",
+        "sell": 385,
+        "roi_pct": 0.8,
+        "volume_5m": 38593,
+        "volume_per_hr": 594085,
+        "buy_pressure_pct": 73,
+        "margin_after_tax": 3
       },
       {
-        "buy": 88,
-        "name": "Steam rune",
-        "sell": 93,
-        "roi_pct": 4.55,
-        "volume_5m": 17079,
-        "volume_per_hr": 222553,
-        "buy_pressure_pct": 45,
-        "margin_after_tax": 4
+        "buy": 70,
+        "name": "Grapes",
+        "sell": 74,
+        "roi_pct": 4.29,
+        "volume_5m": 24568,
+        "volume_per_hr": 357420,
+        "buy_pressure_pct": 59,
+        "margin_after_tax": 3
       },
       {
-        "buy": 332,
-        "name": "Dragonstone bolts (e)",
-        "sell": 346,
-        "roi_pct": 2.41,
-        "volume_5m": 20773,
-        "volume_per_hr": 107606,
-        "buy_pressure_pct": 57,
-        "margin_after_tax": 8
+        "buy": 243,
+        "name": "Steel cannonball",
+        "sell": 250,
+        "roi_pct": 0.82,
+        "volume_5m": 133353,
+        "volume_per_hr": 713784,
+        "buy_pressure_pct": 71,
+        "margin_after_tax": 2
       },
       {
-        "buy": 540,
-        "name": "Adamantite ore",
-        "sell": 559,
-        "roi_pct": 1.48,
-        "volume_5m": 10912,
-        "volume_per_hr": 164191,
-        "buy_pressure_pct": 28,
-        "margin_after_tax": 8
-      },
-      {
-        "buy": 186,
-        "name": "Death rune",
-        "sell": 190,
-        "roi_pct": 0.54,
-        "volume_5m": 256091,
-        "volume_per_hr": 1095060,
-        "buy_pressure_pct": 67,
-        "margin_after_tax": 1
+        "buy": 114,
+        "name": "Mithril dart tip",
+        "sell": 122,
+        "roi_pct": 5.26,
+        "volume_5m": 5000,
+        "volume_per_hr": 248395,
+        "buy_pressure_pct": 74,
+        "margin_after_tax": 6
       }
     ],
     "reversion": [
       {
         "z": -1.12,
-        "buy": 40563,
+        "buy": 40601,
         "name": "Ninja impling jar",
         "sell": 42294,
         "regime": "ranging",
         "buy_score": 69,
-        "upside_pct": 2.7,
+        "upside_pct": 2.6,
         "target_mean": 42489,
         "model_reason": "4.7% below its 15-day average (z -1.1)",
         "volume_per_hr": 176,
         "buy_pressure_pct": 41,
-        "gp_turnover_per_hr": 7139088,
+        "gp_turnover_per_hr": 7145776,
         "trend6h_pct_per_day": -2.91
       },
       {
@@ -235,7 +235,7 @@
         "z": -0.74,
         "buy": 67543,
         "name": "Goading potion(4)",
-        "sell": 68454,
+        "sell": 69999,
         "regime": "ranging",
         "buy_score": 75,
         "upside_pct": 2.3,
@@ -337,21 +337,6 @@
         "trend6h_pct_per_day": -1.72
       },
       {
-        "z": -2.95,
-        "buy": 7728,
-        "name": "Urium remains",
-        "sell": 8128,
-        "regime": "falling knife",
-        "buy_score": 75,
-        "upside_pct": 3.1,
-        "target_mean": 8127,
-        "model_reason": "4.9% below its 15-day average (z -3.0)",
-        "volume_per_hr": 489,
-        "buy_pressure_pct": 96,
-        "gp_turnover_per_hr": 3778992,
-        "trend6h_pct_per_day": -0.8
-      },
-      {
         "z": -3.03,
         "buy": 1688,
         "name": "Efaritay's aid",
@@ -430,7 +415,7 @@
         "z": -2.96,
         "buy": 1005,
         "name": "Mahogany repair kit",
-        "sell": 1012,
+        "sell": 1043,
         "regime": "falling knife",
         "buy_score": 100,
         "upside_pct": 8.7,
@@ -458,17 +443,17 @@
       },
       {
         "z": -1.63,
-        "buy": 1295,
+        "buy": 1284,
         "name": "Water orb",
         "sell": 1309,
         "regime": "recovering",
         "buy_score": 83,
-        "upside_pct": 6.3,
+        "upside_pct": 7.2,
         "target_mean": 1404,
         "model_reason": "6.8% below its 15-day average (z -1.6)",
         "volume_per_hr": 15698,
         "buy_pressure_pct": 13,
-        "gp_turnover_per_hr": 20328910,
+        "gp_turnover_per_hr": 20156232,
         "trend6h_pct_per_day": -0.78
       },
       {
@@ -517,21 +502,6 @@
         "trend6h_pct_per_day": 1.76
       },
       {
-        "z": -2.54,
-        "buy": 1638,
-        "name": "Camphor repair kit",
-        "sell": 1673,
-        "regime": "ranging",
-        "buy_score": 83,
-        "upside_pct": 3.4,
-        "target_mean": 1727,
-        "model_reason": "5.1% below its 15-day average (z -2.5)",
-        "volume_per_hr": 1486,
-        "buy_pressure_pct": 19,
-        "gp_turnover_per_hr": 2434068,
-        "trend6h_pct_per_day": 0.5
-      },
-      {
         "z": -1.41,
         "buy": 907,
         "name": "Clockwork",
@@ -545,6 +515,21 @@
         "buy_pressure_pct": 38,
         "gp_turnover_per_hr": 1610832,
         "trend6h_pct_per_day": -0.62
+      },
+      {
+        "z": -2.54,
+        "buy": 1642,
+        "name": "Camphor repair kit",
+        "sell": 1673,
+        "regime": "ranging",
+        "buy_score": 83,
+        "upside_pct": 3.1,
+        "target_mean": 1727,
+        "model_reason": "5.1% below its 15-day average (z -2.5)",
+        "volume_per_hr": 1486,
+        "buy_pressure_pct": 19,
+        "gp_turnover_per_hr": 2440012,
+        "trend6h_pct_per_day": 0.5
       },
       {
         "z": -0.78,
@@ -565,7 +550,7 @@
         "z": -1.93,
         "buy": 3616,
         "name": "Forgotten brew(4)",
-        "sell": 3750,
+        "sell": 3790,
         "regime": "falling knife",
         "buy_score": 85,
         "upside_pct": 8.2,
@@ -607,36 +592,6 @@
         "trend6h_pct_per_day": -0.2
       },
       {
-        "z": -2.52,
-        "buy": 1327,
-        "name": "Manta ray",
-        "sell": 1372,
-        "regime": "falling knife",
-        "buy_score": 86,
-        "upside_pct": 4.2,
-        "target_mean": 1411,
-        "model_reason": "5.9% below its 15-day average (z -2.5)",
-        "volume_per_hr": 28422,
-        "buy_pressure_pct": 77,
-        "gp_turnover_per_hr": 37715994,
-        "trend6h_pct_per_day": -0.53
-      },
-      {
-        "z": -3.15,
-        "buy": 2980,
-        "name": "Sacred oil(4)",
-        "sell": 3000,
-        "regime": "falling knife",
-        "buy_score": 100,
-        "upside_pct": 9.4,
-        "target_mean": 3326,
-        "model_reason": "13.9% below its 15-day average (z -3.2)",
-        "volume_per_hr": 9220,
-        "buy_pressure_pct": 32,
-        "gp_turnover_per_hr": 27475600,
-        "trend6h_pct_per_day": -1.45
-      },
-      {
         "z": -2.51,
         "buy": 735,
         "name": "Magic shortbow",
@@ -665,6 +620,21 @@
         "buy_pressure_pct": 3,
         "gp_turnover_per_hr": 6028733,
         "trend6h_pct_per_day": 1.31
+      },
+      {
+        "z": -3.15,
+        "buy": 3000,
+        "name": "Sacred oil(4)",
+        "sell": 3000,
+        "regime": "falling knife",
+        "buy_score": 100,
+        "upside_pct": 8.7,
+        "target_mean": 3326,
+        "model_reason": "13.9% below its 15-day average (z -3.2)",
+        "volume_per_hr": 9220,
+        "buy_pressure_pct": 32,
+        "gp_turnover_per_hr": 27660000,
+        "trend6h_pct_per_day": -1.45
       },
       {
         "z": -2.24,
@@ -697,6 +667,36 @@
         "trend6h_pct_per_day": -2.15
       },
       {
+        "z": -1.8,
+        "buy": 1572,
+        "name": "Dwarf weed potion (unf)",
+        "sell": 1620,
+        "regime": "ranging",
+        "buy_score": 80,
+        "upside_pct": 3.1,
+        "target_mean": 1653,
+        "model_reason": "3.9% below its 15-day average (z -1.8)",
+        "volume_per_hr": 34349,
+        "buy_pressure_pct": 100,
+        "gp_turnover_per_hr": 53996628,
+        "trend6h_pct_per_day": -0.62
+      },
+      {
+        "z": -2.52,
+        "buy": 1335,
+        "name": "Manta ray",
+        "sell": 1373,
+        "regime": "falling knife",
+        "buy_score": 86,
+        "upside_pct": 3.6,
+        "target_mean": 1411,
+        "model_reason": "5.9% below its 15-day average (z -2.5)",
+        "volume_per_hr": 28422,
+        "buy_pressure_pct": 77,
+        "gp_turnover_per_hr": 37943370,
+        "trend6h_pct_per_day": -0.53
+      },
+      {
         "z": -1.33,
         "buy": 11451,
         "name": "Anti-venom(4)",
@@ -710,21 +710,6 @@
         "buy_pressure_pct": 99,
         "gp_turnover_per_hr": 89111682,
         "trend6h_pct_per_day": -2.02
-      },
-      {
-        "z": -1.8,
-        "buy": 1573,
-        "name": "Dwarf weed potion (unf)",
-        "sell": 1614,
-        "regime": "ranging",
-        "buy_score": 80,
-        "upside_pct": 3,
-        "target_mean": 1653,
-        "model_reason": "3.9% below its 15-day average (z -1.8)",
-        "volume_per_hr": 34349,
-        "buy_pressure_pct": 100,
-        "gp_turnover_per_hr": 54030977,
-        "trend6h_pct_per_day": -0.62
       },
       {
         "z": -1.61,
@@ -745,7 +730,7 @@
         "z": -1.57,
         "buy": 6049,
         "name": "Divine ranging potion(4)",
-        "sell": 6155,
+        "sell": 6158,
         "regime": "ranging",
         "buy_score": 76,
         "upside_pct": 3.8,
@@ -755,9 +740,24 @@
         "buy_pressure_pct": 52,
         "gp_turnover_per_hr": 43818956,
         "trend6h_pct_per_day": -0.96
+      },
+      {
+        "z": -1.2,
+        "buy": 4602,
+        "name": "Haemostatic dressing (4)",
+        "sell": 4666,
+        "regime": "falling knife",
+        "buy_score": 76,
+        "upside_pct": 4.8,
+        "target_mean": 4920,
+        "model_reason": "5.5% below its 15-day average (z -1.2)",
+        "volume_per_hr": 105,
+        "buy_pressure_pct": 97,
+        "gp_turnover_per_hr": 483210,
+        "trend6h_pct_per_day": 0.5
       }
     ],
-    "generated_at": "2026-09-02T01:30:54.007467+00:00"
+    "generated_at": "2026-09-02T01:34:33.740954+00:00"
   },
   "news": {
     "upcoming": "The following is a list of confirmed upcoming updates, derived from official Jagex sources.\n\n## Confirmed updates\nUpdates in this section have either passed a poll or have been otherwise officially confirmed.\n\n## Summer Sweep Up II\nWith the success of 2024's Project Rebalance and the 2025 Summer Sweep-Up, Jagex is looking to make them an annual occurrence. No specific changes were given during the Summit, but Jagex planned to announce more details at a later date. Player feedback over the years has provided a healthy handful of possible targets, so expect to see skilling improvements, combat feel/QoL tweaks, perhaps some light gear rebalancing, and a smattering of smaller change.\n\n## Sailing Related Updates\n\n## Sequel quest to an existing storyline\nA sequel quest to Olaf's Quest, known as The Graveyard, a master level quest, is expected to be released in Autumn 2026, after passing the Winter Summit 2026 poll.\n\nThe quest will also be released alongside a new Agility course requiring 65 and 80 Agility in a manner similar to the Colossal Wyrm course.\n\n## New Barracuda Trial\nA fourth, new Barracuda Trial is expected to be released in 2027, after passing the Winter Summit 2026 poll. It is intended to be challenging, intense, fast, and tougher than the existing three trials, pushing player's Sailing skills further than ever.\n\n## NPC Boat Combat\nBoat enemies, also known as Pirate Encounters, passed the Winter Summit 2026 poll and were originally intended to be released alongside the Red Reef. However, they were pushed back to a future date.\n\n## Sea expansion\nNew content in the Eastern, Untamed, Forgotten or Sunset Oceans is expected to be released in Winter 2026 or beyond, after passing the Winter Summit 2026 poll. This update may be tied to other updates, such as the new Sequel Quest, another area update, or the new Barracuda Trial.\n\n## Quality of Life\n\n## Gathering Efficiencies Poll\nOn 9 April 2026, a poll containing various small quality of life updates with a focus on Gathering Efficiencies was ran. The following changes from the poll have yet to be added:\n* Recharging Infernal tools with Smoldering Stone\n* Toggling the 'burning effect' on Infernal tools\n* Expert mining gloves preventing depletion on runite golems\n* Wilderness diary providing additional ore from runite golems\n* Turning in Daeyalt shards for noted Daeyalt essence\n* Mining enhancers giving additional shards from mining Daeyalt\n* Stackable Net Traps for Hunter\n* Resetting hunter traps without picking up the components\n* Constructing deadfall and pitfall traps with logs from log basket\n* Storing knife and hammer in Tackle Box\n* Using bait directly from Tackle Box\n* Law rune portal distance reduction\n* Bonus resources from Kingdom Management\n* Depositing Fossils without providing bank pin\n* Poison Dynamite reduction for Nightshade (3 down to 1)\n\n## Quests\n\n## A Ruff Situation\nA new quest called A Ruff Situation will be added on 8 September 2026 adding dogs as pets. These dogs will come in multiple breeds that can be found around Gielinor. After the quests completion, players will be able to use their dog follower as a spade to dig for clue steps. Players will also be able to trade their dogs to someone at the Theatre of Blood for blood runes.\n\n## Crab Quest\nA new quest will be added in September 2026 that involves sailing to an existing island to meet crabs. After quest completion, players will gain access to shells that can play notes audible to other players, allowing for music to be played in-game. \n\n## Bingo system\nOn 2 September 2025, Jagex released a blog announcing that, once the Grid Master event ends on 12 November 2025, that they'll be \"looking to implement the [Bingo] system into the main game\". This was confirmed at the Winter Summit 2026, with release expected in summer 2026. However, in August 2026, it was pushed back to early 2027.\n\n## The Fractured Archive\nA new raid named The Fractured Archive is planned to release in late 2026. The name, theme, and some additional details were released at the Winter Summit 2026. It is planned to be a boss rush in the vein of Theatre of Blood, without puzzle or skilling rooms.\n\n## PvP Tutorial\nIn the 2026 summer campfire, a new PvP tutorial was announced. Taking place in Ferox Enclave, players will take on a variety of challenges that teach and test skills relevant to PvP. These include the following:\n*Switching overhead prayers\n*Switching gear\n*Combo-eating multiple pieces of food in the same game tick\n*Escaping players using freezes\n\n## Planned updates\nUpdates in this section have been mentioned or widely accepted by the Old School Team, and may be polled or implemented in the future.\n\n## Refreshed looks of Great Kourend\nMod West, an artist at Jagex, has expressed desire to rework and rearrange some locations belonging to Great Kourend, in order for them to feel more inclusive and immersive. Hosidius and Shayzien have previously been redesigned, on 23 May 2019 and 16 June 2021 respectively. At the moment, Arceuus and Lovakengj are pending.\n\nMoreover, the update to Shayzien did not introduce, alongside it, any new concept or redesign of the Catacombs of Kourend, as West had previously proposed through his social media, where his initial concept featured a reduction in the variety of foes, which at the same time would have gotten rid of some NPCs that \"didn't quite fit\", like cyclopes.\n\n## Tumeken's shadow adjustments\nOn 28 March 2025, Jagex revised a blog acknowledging that there are fundamental issues with Tumeken's shadow that effectively dictate what they can and can't do for any and all discussions around Magic rewards. They committed to making adjustments to the Tumeken's shadow before proposing any future best-in-slot Magic rewards.\n\n## Tortugan series finale\nOn 24 October 2025, Jagex released a blog revealing they have \"got ideas in mind\" for a third and final quest in the Tortugan quest series. However added that \"plans around this are much more vague due to that quest being further away from release [than The Red Reef]\".\n\nOn 25 January 2026, at the Winter Summit 2026, Mod Elena reiterated that \"we already have ideas on how to do the third one,\" and added that \"we game jammed it a little while back.\"\n\n## Sailing quality of life\nOn 25 January 2026, Jagex released a blog listing quality of life changes that received a lot of support from players including:\n*Rapids travel system\n*Port Task filtering to only show tasks you can do\n*Facilities being upgraded at a reduced cost\n*Hide locations that have been charted already\n*Use the spec button for Wind Motes\n*Spyglass cutscene skip\n\n## References\n*",
@@ -854,6 +854,98 @@
       }
     ],
     "reddit": {
+      "OSRSflipping": [
+        {
+          "title": "A case Example for how you can make 500k/day with only a few mil in F2P for complete flipping noobs",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1uiug8t/a_case_example_for_how_you_can_make_500kday_with/",
+          "updated": "2026-06-29T14:43:09+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I made this comment in another thread and felt worth posting. there&amp;#39;s plenty of easy flips in f2p. Not for crazy gold but you can slowly build gold. Arrows/runes/logs were a staple for me when I was starting out, I started with 2m"
+        },
+        {
+          "title": "Monthly Flipping Tool MegaThread: Post Your OSRS Flipping Tools or Updates Here!",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1sd9yk7/monthly_flipping_tool_megathread_post_your_osrs/",
+          "updated": "2026-04-05T17:44:04+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;See here for more context:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1rnpfin/subreddit_change_all_posts_solely_about_toolsi/&quot;&gt;https://www.reddit.com/r/OSRSflipping/comments/1rnpfin/subreddi"
+        },
+        {
+          "title": "Protip: flipping green items makes you profit, flipping red items makes you lose money",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w47alz/protip_flipping_green_items_makes_you_profit/",
+          "updated": "2026-09-01T09:52:08+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1w47alz/protip_flipping_green_items_makes_you_profit/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/d5qmyc3lrvmh1.png?width=140&amp;amp;height=42&amp;amp;auto=webp&amp;amp;s=7e618f60ce15e646ecf18"
+        },
+        {
+          "title": "Help with overnight flipping.",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w4uma6/help_with_overnight_flipping/",
+          "updated": "2026-09-02T00:15:26+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;So I’ve got a 4B bank but all the wealth is tied up in my PvM gear that I use everyday. Current cash stack is at 12M. Wondering what advice you guys can give me for flipping some of my items like tbow, oathplate, scythe etc overnight. I’v"
+        },
+        {
+          "title": "Blood essence supply shock",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w4o0l6/blood_essence_supply_shock/",
+          "updated": "2026-09-01T20:17:31+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1w4o0l6/blood_essence_supply_shock/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/q1fiuqdluymh1.png?width=140&amp;amp;height=34&amp;amp;auto=webp&amp;amp;s=41dd3aea272d46423747b9c66bed188742ce709"
+        },
+        {
+          "title": "Whats up with the margins for &quot;expensive&quot; items?",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w3yeei/whats_up_with_the_margins_for_expensive_items/",
+          "updated": "2026-09-01T02:01:23+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I&amp;#39;ve been flipping for a long time, and i just returned to do a little side flipping during work - and all these items, even items that are 100m+ have such tight margins.&lt;/p&gt; &lt;p&gt;I know the move is overnight flipping, b"
+        },
+        {
+          "title": "Monthly Flipping Breakdown – 29M Profit (5–50m Bracket)",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w4sczq/monthly_flipping_breakdown_29m_profit_550m_bracket/",
+          "updated": "2026-09-01T22:42:38+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1w4sczq/monthly_flipping_breakdown_29m_profit_550m_bracket/&quot;&gt; &lt;img src=&quot;https://external-preview.redd.it/XOnRiwsbd8bh5VytScxUCsFAfSHuFXivy_UXF_4z6U8.jpeg?width=320&amp;amp;crop=smart&am"
+        },
+        {
+          "title": "Justiciar bet",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w34jix/justiciar_bet/",
+          "updated": "2026-08-31T05:35:26+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1w34jix/justiciar_bet/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/f7bwimvgdnmh1.jpg?width=140&amp;amp;height=39&amp;amp;auto=webp&amp;amp;s=cc8454383c68e8a19ec1cc3fa1bee8a6119ec9f9&quot; alt=&"
+        },
+        {
+          "title": "Do we think Yew Logs will ever make a comeback?",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w30hnf/do_we_think_yew_logs_will_ever_make_a_comeback/",
+          "updated": "2026-08-31T02:15:01+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Huge bot farms made the volume spike last year? Maybe vale totems dropped the overall amount that get fletched I suppose as well. They were barely under 200 back in 2020 and 2022, now they&amp;#39;ve been below 200 for almost a year and b"
+        },
+        {
+          "title": "Investing into platinum tokens",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w1vo2k/investing_into_platinum_tokens/",
+          "updated": "2026-08-29T19:30:53+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1w1vo2k/investing_into_platinum_tokens/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/88xbhltj8dmh1.png?width=70&amp;amp;height=60&amp;amp;auto=webp&amp;amp;s=cdb0e69fab04932b3c93340601cb7db9f816"
+        },
+        {
+          "title": "Thinking on my next long term investment: dex scrolls?",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w1y0uz/thinking_on_my_next_long_term_investment_dex/",
+          "updated": "2026-08-29T21:04:49+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;They seem a bit undervalued atm. I ran a few calcs, and depending on how ancestral and tbow prices hold, they should end up between 22m and 45m (22m with no changes, 45m if everything else crashes). I didn&amp;#39;t account for price chan"
+        },
+        {
+          "title": "Tbow made me more money here than my last 10 cox chests",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w0sw8j/tbow_made_me_more_money_here_than_my_last_10_cox/",
+          "updated": "2026-08-28T14:57:57+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1w0sw8j/tbow_made_me_more_money_here_than_my_last_10_cox/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/uxkklmg3r4mh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b3af937d4b3a1f6"
+        },
+        {
+          "title": "Mega Rare Runes?",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w0rgy1/mega_rare_runes/",
+          "updated": "2026-08-28T14:02:44+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I know there has been some talk about it being Nats. However, with Guthix being the god of balance, wouldn’t a cost of both law and nature runes really embody the notion of balance?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; sub"
+        },
+        {
+          "title": "Snape grass quick flip",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w0rb7j/snape_grass_quick_flip/",
+          "updated": "2026-08-28T13:56:47+00:00",
+          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/OSRSflipping/comments/1w0rb7j/snape_grass_quick_flip/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/firc3iy0f4mh1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=1f876daefb3e8c0fca723c4e7189498d97a5298a&q"
+        },
+        {
+          "title": "annihilation weapon scroll rising?",
+          "url": "https://www.reddit.com/r/OSRSflipping/comments/1w0981t/annihilation_weapon_scroll_rising/",
+          "updated": "2026-08-27T22:52:15+00:00",
+          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I have some scrolls, almost sold at 30m each but I thought they might get a higher value in the future, now they have been steady at 13-16m for months... Do you guys think they will go to 30m again in a few months? What are your prediciti"
+        }
+      ],
       "2007scape": [
         {
           "title": "Have a question about the game or the subreddit? Ask away!",
@@ -946,99 +1038,7 @@
           "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/2007scape/comments/1w4iosb/mask_of_rebirth_obtained_on_a_10hp_account/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/88m2mu951ymh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bff045a423e3d4d1cf84e968"
         }
       ],
-      "osrs": [
-        {
-          "title": "READ FIRST - Advice threads and RNG posts.",
-          "url": "https://www.reddit.com/r/osrs/comments/1pkdkzt/read_first_advice_threads_and_rng_posts/",
-          "updated": "2025-12-12T00:22:43+00:00",
-          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Firstly, regarding advice threads. A lot of advice/recommendation threads have been made recently. If you want to comment on them, do not offer bad advice. This includes noob-bait traps. Your comments will be deleted and user potentially "
-        },
-        {
-          "title": "I did it",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4r2qb/i_did_it/",
-          "updated": "2026-09-01T21:54:25+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4r2qb/i_did_it/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/ygkco3i1dzmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=bc27a32698d178123a3830042a97dfd34a86ea51&quot; alt=&quot;I did "
-        },
-        {
-          "title": "finally got my defender 550kc",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4qpsa/finally_got_my_defender_550kc/",
-          "updated": "2026-09-01T21:41:04+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4qpsa/finally_got_my_defender_550kc/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/3l6qvmtnazmh1.jpg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=1cc0b57e94374698e240"
-        },
-        {
-          "title": "got my first pet ever today!",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4v0wl/got_my_first_pet_ever_today/",
-          "updated": "2026-09-02T00:33:09+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4v0wl/got_my_first_pet_ever_today/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/5f90vi2d50nh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=17c97a0ebfb264ed8371b28c4930cd2e9a108672&quo"
-        },
-        {
-          "title": "Gains at 5500ft",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4dpqp/gains_at_5500ft/",
-          "updated": "2026-09-01T14:32:46+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4dpqp/gains_at_5500ft/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/7alclcy56xmh1.jpg?width=140&amp;amp;height=64&amp;amp;auto=webp&amp;amp;s=4d3ddad64ecab40ff0e8a55a5b6fb5a05f7aac4c&quot; alt=&quot;G"
-        },
-        {
-          "title": "By what I did in the Al-Kharid situation alone I deserve a rune plate, right there, boom!",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4dc6f/by_what_i_did_in_the_alkharid_situation_alone_i/",
-          "updated": "2026-09-01T14:18:39+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4dc6f/by_what_i_did_in_the_alkharid_situation_alone_i/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/hhngficq3xmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=9256efb67d796686edf02726"
-        },
-        {
-          "title": "Rock Golem pet during Quest 💙",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4sau0/rock_golem_pet_during_quest/",
-          "updated": "2026-09-01T22:40:12+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4sau0/rock_golem_pet_during_quest/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/ftvm4on7lzmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=218a36fca69f800e9d7b5754101ce936fce209f4&quo"
-        },
-        {
-          "title": "Am I missing something or is Camdozaal smithing exp really that bad?",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4tdia/am_i_missing_something_or_is_camdozaal_smithing/",
-          "updated": "2026-09-01T23:23:33+00:00",
-          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I’m working on a f2p Ironman and I’ve been afking at Camdozaal mostly. The mining exp isn’t too terrible for an afk method at about 6k with a rune pickaxe and 57 mining, but even with the buff the smithing exp/hr is about 1k. I’ve been tr"
-        },
-        {
-          "title": "Stale Baguette",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4esy4/stale_baguette/",
-          "updated": "2026-09-01T15:12:06+00:00",
-          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Could someone please explain to me why this is so expensive? I just got one in a Mystery Box. I’m new to OSRS, and can’t really find anything on it. Thanks!!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;"
-        },
-        {
-          "title": "New player here, how welcoming are the community?",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4vz5o/new_player_here_how_welcoming_are_the_community/",
-          "updated": "2026-09-02T01:15:25+00:00",
-          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hi! I&amp;#39;ve never played Runescape before and this is my first experience in the game. Are players welcoming to newbies like me? I&amp;#39;m playing in an f2p world for a while to decide if I should get membership.&lt;/p&gt; &lt;/div"
-        },
-        {
-          "title": "My rendition of “Spooky picture” I painted back in 2020",
-          "url": "https://www.reddit.com/r/osrs/comments/1w41jbs/my_rendition_of_spooky_picture_i_painted_back_in/",
-          "updated": "2026-09-01T04:30:13+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w41jbs/my_rendition_of_spooky_picture_i_painted_back_in/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/r90jyh6q4umh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b22b7e07cee3ede8f34562c"
-        },
-        {
-          "title": "Feels great to be back!",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4w430/feels_great_to_be_back/",
-          "updated": "2026-09-02T01:21:20+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4w430/feels_great_to_be_back/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/hu8wodiyd0nh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=edd796b9149542afec6eaa05a693b2fb7a216540&quot; al"
-        },
-        {
-          "title": "Chill/afk activities",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4kzvw/chillafk_activities/",
-          "updated": "2026-09-01T18:45:19+00:00",
-          "snippet": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;What are some chill activities you like to do while watching some tv?&lt;br/&gt; My accounts very mid game atm. Looking for some things to do while not paying to much attention&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitte"
-        },
-        {
-          "title": "I fucking love revenant imps!",
-          "url": "https://www.reddit.com/r/osrs/comments/1w4nsp9/i_fucking_love_revenant_imps/",
-          "updated": "2026-09-01T20:10:48+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w4nsp9/i_fucking_love_revenant_imps/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/zyp3xbzjuymh1.jpg?width=140&amp;amp;height=64&amp;amp;auto=webp&amp;amp;s=bbc7d722c2358135c2439fd22f6a9b65002bf903&quot"
-        },
-        {
-          "title": "Finally upgraded my POH",
-          "url": "https://www.reddit.com/r/osrs/comments/1w3tnjb/finally_upgraded_my_poh/",
-          "updated": "2026-08-31T22:42:34+00:00",
-          "snippet": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/osrs/comments/1w3tnjb/finally_upgraded_my_poh/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/hx1eyvzpgsmh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=eda9a63cdf1b57b4053b4a4a533a3c572886069c&quot; a"
-        }
-      ],
-      "OSRSflipping": {
+      "osrs": {
         "error": "HTTP 429"
       }
     }
