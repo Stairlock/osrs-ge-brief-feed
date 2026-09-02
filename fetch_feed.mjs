@@ -30,6 +30,40 @@ function getOpportunities() {
   });
 }
 
+// Confirmed upcoming content from the OSRS wiki (the reliable catalyst source —
+// new raids/bosses, gear reworks, Sailing, Leagues, etc.). Cleaned to readable text.
+function getUpcoming() {
+  return safe('upcoming-updates', async () => {
+    const r = await fetch(
+      'https://oldschool.runescape.wiki/api.php?action=parse&page=Upcoming_updates&prop=wikitext&format=json',
+      { headers: { 'User-Agent': UA } }
+    );
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const t = r && (await r.json())?.parse?.wikitext?.['*'];
+    if (!t) throw new Error('empty');
+    const s = t
+      .replace(/\{\{[^{}]*\}\}/g, '')
+      .replace(/\{\{[^{}]*\}\}/g, '')
+      .replace(/<gallery[\s\S]*?<\/gallery>/g, '')
+      .replace(/<ref[\s\S]*?<\/ref>/g, '')
+      .replace(/<[^>]+>/g, '')
+      .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1')
+      .replace(/'''?/g, '')
+      .replace(/\[https?:\/\/\S+\s+([^\]]+)\]/g, '$1')
+      .replace(/^=+\s*(.*?)\s*=+\s*$/gm, '\n## $1')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+    // drop low-market-value client/UI sections so the content (raids, bosses,
+    // gear, quests) isn't truncated away; keep the rest of the page in full
+    const DROP = /^## (Upgrading official game client|Official HD Mode|.*client.*|.*engine.*|.*Jagex Launcher.*|.*mobile.*)/i;
+    const kept = s
+      .split(/\n(?=## )/)
+      .filter((sec) => !DROP.test(sec.split('\n')[0]))
+      .join('\n');
+    return kept.slice(0, 11000);
+  });
+}
+
 // Official Old School RuneScape news RSS.
 function getOfficialNews() {
   return safe('official-news', async () => {
@@ -97,22 +131,26 @@ function getSubreddit(sub) {
   });
 }
 
-const opportunities = await getOpportunities();
-const official = await getOfficialNews();
-// sequential + spaced so Reddit doesn't rate-limit (429) the run
+const [opportunities, official, upcoming] = await Promise.all([
+  getOpportunities(),
+  getOfficialNews(),
+  getUpcoming(),
+]);
+// Reddit sequentially, well spaced and in random order so no single sub always
+// eats the rate-limit (429) when GitHub's shared IP is throttled.
 const reddit = {};
-for (const sub of ['2007scape', 'osrs', 'OSRSflipping']) {
+for (const sub of ['2007scape', 'osrs', 'OSRSflipping'].sort(() => Math.random() - 0.5)) {
   reddit[sub] = await getSubreddit(sub);
-  await new Promise((res) => setTimeout(res, 2000));
+  await new Promise((res) => setTimeout(res, 10000));
 }
-const [r2007] = [reddit['2007scape']];
+const r2007 = reddit['2007scape'];
 
 const feed = {
   generated_at: new Date().toISOString(),
   note:
     'Public feed for the OSRS daily investment brief. opportunities = our GE-tracker model output; news = official OSRS RSS; reddit = hot posts from the three subs. Any field may contain {error} if that source was unreachable this run.',
   opportunities,
-  news: { official, reddit },
+  news: { upcoming, official, reddit },
 };
 
 await writeFile('feed/latest.json', JSON.stringify(feed, null, 2));
